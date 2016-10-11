@@ -21,7 +21,9 @@ public class ViewClickOnSubscribe implements Observable.OnSubscribe<Void> {
 
         View.OnClickListener listener = v -> {
             // view가 눌리면 구독자의 onNext를 호출한다
-            if(!subscriber.isUnsubscribed()) subscriber.onNext(null);
+            if(!subscriber.isUnsubscribed()) {
+                subscriber.onNext(null);
+            }
         };
 
         // 버튼은 main thread에서 구독되야 한다 그래서 main thread 구독자에 추가한다

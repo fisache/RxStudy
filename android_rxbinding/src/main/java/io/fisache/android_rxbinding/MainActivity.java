@@ -1,13 +1,12 @@
 package io.fisache.android_rxbinding;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 import android.widget.TextView;
 
 import io.fisache.android_rxbinding.RxBinding.view.RxView;
 import rx.Subscription;
-import rx.functions.Action1;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         subscription = RxView.clicks(btn)
                 .map(aVoid -> "Rx Binding!")
                 .subscribe(s -> {
-                   tvText.setText(s);
+                    tvText.setText(s);
                 });
     }
 
