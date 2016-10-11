@@ -1,1 +1,1 @@
-include ':app'
+include ':android_gugudan', ':android_rxbinding'

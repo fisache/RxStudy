@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RxStudy.iml" filepath="$PROJECT_DIR$/RxStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_gugudan/android_gugudan.iml" filepath="$PROJECT_DIR$/android_gugudan/android_gugudan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_rxbinding/android_rxbinding.iml" filepath="$PROJECT_DIR$/android_rxbinding/android_rxbinding.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
