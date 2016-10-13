@@ -13,8 +13,7 @@ android {
         versionCode 1
         versionName "1.0"
 
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
+        testInstrumentationRunner "io.fisache.android_rxbinding.util.RxBindingTestRunner"
     }
     buildTypes {
         release {
@@ -44,7 +43,6 @@ dependencies {
 
     testCompile rootProject.ext.junit
 
-    androidTestCompile project(':testing_util')
     androidTestCompile rootProject.ext.testRunner
     androidTestCompile rootProject.ext.testRule
     androidTestCompile rootProject.ext.truth

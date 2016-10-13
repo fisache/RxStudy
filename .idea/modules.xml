@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/android_gugudan/android_gugudan.iml" filepath="$PROJECT_DIR$/android_gugudan/android_gugudan.iml" />
       <module fileurl="file://$PROJECT_DIR$/android_rxbinding/android_rxbinding.iml" filepath="$PROJECT_DIR$/android_rxbinding/android_rxbinding.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/testing_util/testing_util.iml" filepath="$PROJECT_DIR$/testing_util/testing_util.iml" />
     </modules>
   </component>
 </project>

@@ -8,4 +8,5 @@ blog : https://fisache.github.io/rxstudy-gugudan/
 
 - android_rxbinding : JakeWharton의 RxBinding을 보면서 하나씩 구현해본다. <br />
 
-  * <a href="https://fisache.github.io/rxstudy-rxbinding-1/">RxStudy - RxBinding 따라해보기 -1 RxView를 만들어보자.</a>
+  * <a href="https://fisache.github.io/rxstudy-rxbinding-1/">RxStudy - RxBinding 따라해보기 -1 RxView를 만들어보자.</a> <br/>
+  * <a href="https://fisache.github.io/rxstudy-rxbinding-2/">RxStudy - RxBinding 따라해보기 -2 RxView click을 테스트해보자.</a> <br />
