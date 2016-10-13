@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/android_gugudan" />
             <option value="$PROJECT_DIR$/android_rxbinding" />
+            <option value="$PROJECT_DIR$/testing_util" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

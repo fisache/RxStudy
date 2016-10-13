@@ -1,1 +1,1 @@
-include ':android_gugudan', ':android_rxbinding'
+include ':android_gugudan', ':android_rxbinding', ':testing_util'

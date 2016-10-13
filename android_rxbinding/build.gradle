@@ -21,6 +21,9 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+        debug {
+            testCoverageEnabled true
+        }
     }
     compileOptions{
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -40,6 +43,13 @@ dependencies {
     compile rootProject.ext.rxandroid
 
     testCompile rootProject.ext.junit
+
+    androidTestCompile project(':testing_util')
+    androidTestCompile rootProject.ext.testRunner
+    androidTestCompile rootProject.ext.testRule
+    androidTestCompile rootProject.ext.truth
+    androidTestCompile rootProject.ext.espresso
+    androidTestCompile rootProject.ext.espressoContrib
 }
 
 retrolambda {
